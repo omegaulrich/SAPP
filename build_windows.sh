@@ -10,12 +10,7 @@ fi
 	sudo apt update
 	sudo apt install git zip unzip build-essential libtool bsdmainutils autotools-dev autoconf pkg-config automake python3 curl g++-mingw-w64-x86-64 libqt5svg5-dev -y
 	echo "1" | sudo update-alternatives --config x86_64-w64-mingw32-g++
-
-# Clone code from official Github repository
-	rm -rf SAPP
-	git clone https://github.com/sappcoin-com/SAPP.git
-
-# Entering directory
+	cd
 	cd SAPP
 
 # Compile dependencies
